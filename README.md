@@ -10,10 +10,12 @@ It showcases my skills, projects, and contact information.
 - Git & GitHub
 
 ## Screenshots
-(Add screenshots here)
+![Alt text](<Screenshot 2026-02-01 at 10.52.53 PM.png>) ![Alt text](<Screenshot 2026-02-01 at 10.52.38 PM.png>) ![Alt text](<Screenshot 2026-02-01 at 10.52.18 PM.png>)
 
+![Alt text](<Screenshot 2026-02-01 at 10.52.38 PM-1.png>)
+![Alt text](<Screenshot 2026-02-01 at 10.52.18 PM-1.png>)
 ## Live Website
-(Add GitHub Pages link here)
+https://nishthaq3.github.io/portfolio-html/
 
 ##  What I Learned
 - Flexbox and Grid layouts
