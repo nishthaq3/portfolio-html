@@ -1,21 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Projects</title>
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Projects | Nishtha</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-	<nav class="navbar">
-		<h5 class="logo">Portfolio|Nishtha</h5>
-	  
-		<ul class="nav-links">
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="about.html">About</a></li>
-		  <li><a href="projects.html">Projects</a></li>
-		  <li><a href="contact.html">Contact</a></li>
-		</ul>
-	  </nav>	  
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h5 class="logo">Portfolio|Nishtha</h5>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects">
+
+    <h1>My Projects</h1>
+
+    <div class="cards">
+
+      <!-- CARD 1 -->
+      <div class="card">
+        <img src="images/project1.jpg" alt="Project 1">
+
+        <h3>Mutual Funds Analysis</h3>
+
+        <p>
+          A detailed analysis on India's top three AMFI funds in terms
+		  of their NAV and returns. Cleaned and calculated NAVs in Python
+		  and excel.
+        </p>
+
+        <a href="https://github.com/nishthaq3/mutual_funds_comparision" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card">
+        <img src="images/project2.jpg" alt="Project 2">
+
+        <h3>AI Job market trend analysis</h3>
+
+        <p>
+          Analysis of 15000+ AI Job listings using Python and SQL to determine
+		  rising AI trends and global AI giants.
+        </p>
+
+        <a href="https://github.com/nishthaq3/ai_job_analysis" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card">
+        <img src="images/project3.jpg" alt="Project 3">
+
+        <h3>Customer Campaign Predictor</h3>
+
+        <p>
+          A streamlit-based ML website which predicts whether a Customer
+		  is likely to repurchase in 14 days based on their shopping
+		  trends.
+        </p>
+
+        <a href="https://github.com/nishthaq3/customer_campaign_predictor" target="_blank" class="btn">View Project</a>
+
+      </div>
+	  <div class="card">
+        <img src="images/project4.jpg" alt="Project 4">
+
+        <h3>RAG Simulator</h3>
+
+        <p>
+         A python-based simulator which depicts an RAG graph based on
+		 nodes and relationships enetered. Also detects deadlock cycle 
+		 and suggests the right relationship to break to avoid deadlock
+		 using AI.
+        </p>
+
+        <a href="https://github.com/nishthaq3/RAG-Simulator" target="_blank" class="btn">View Project</a>
+      </div>
+
+    </div>
+	<!-- PROFILE LINKS -->
+	<div class="project-links">
+
+		<a href="https://github.com/nishthaq3"
+		target="_blank"
+		class="btn secondary-btn">
+		View GitHub
+		</a>
+	
+		<a href="https://docs.google.com/document/d/1fCbwEccOLe66FEVj-BCefpwJ8lIyBwEw/edit"
+		target="_blank"
+		class="btn secondary-btn">
+		View Resume
+		</a>
+	
+	</div>
+	
+  </section>
+
 </body>
 </html>

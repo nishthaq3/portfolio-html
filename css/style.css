@@ -169,5 +169,73 @@
 	font-size: 0.8rem;
 	font-weight: bold;
   }
+  /* PROJECTS SECTION */
+
+.projects {
+	padding: 60px 40px;
+	text-align: center;
+  }
+  
+  .projects h1 {
+	margin-bottom: 40px;
+	font-size: 2.5rem;
+  }
+  
+  /* CARDS */
+  
+  .cards {
+	display: flex;            /* FLEXBOX */
+	gap: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  
+  .card {
+	background: white;
+  
+	width: 280px;             /* PX */
+	padding: 20px;
+  
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+	text-align: left;
+  
+	transition: 0.3s;         /* TRANSITION */
+  }
+  
+  .card img {
+	width: 100%;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 8px;
+  }
+  
+  .card h3 {
+	margin: 15px 0 10px;
+  }
+  
+  .card p {
+	font-size: 0.95rem;
+	margin-bottom: 15px;
+  }
+  /* PROJECT LINKS BUTTONS */
+.project-links {
+	margin-top: 40px;
+	text-align: center;
+  }
+  
+  .secondary-btn {
+	margin: 10px;
+	background: transparent;
+	color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+  }
+  
+  .secondary-btn:hover {
+	background: var(--primary-color);
+	color: white;
+  }
+  
   
   
