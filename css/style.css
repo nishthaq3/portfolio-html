@@ -313,6 +313,28 @@
 	}
   
   }
+  /* ANIMATIONS */
+
+.card:hover {
+	transform: translateY(-10px);
+  }
+  
+  .gallery img:hover {
+	filter: brightness(90%);
+  }
+  
+  .nav-links a {
+	transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+	letter-spacing: 1px;
+  }
+  
+  .skills li:hover {
+	transform: scale(1.1);
+  }
+  
   
   
   
