@@ -1,7 +1,7 @@
 :root {
-	--primary-color: #6c63ff;
-	--dark: #222;
-	--light: #f9f9f9;
+	--primary-color: #b57edc;   /* Lilac */
+	--dark: #3a2a3f;            /* Soft dark purple */
+	--light: #ffe4f0;           /* Baby pink */
   }
   
   * {
@@ -22,7 +22,7 @@
 	align-items: center;
   
 	padding: 15px 40px;
-	background: white;
+	background: #fff0f7;
   
 	position: sticky;           
 	top: 0;
@@ -57,8 +57,8 @@
   
 	background: linear-gradient(
 	  to right,
-	  #6c63ff,
-	  #857dff
+	  #f3b1d8,
+	  #b57edc
 	);
   
 	color: white;
@@ -124,9 +124,9 @@
 	font-size: 1.3rem;
   
 	margin-top: 20px;
-	margin-bottom: 15px;   /* GAP BELOW HEADING */
+	margin-bottom: 15px;   
   
-	text-align: left;      /* ALIGN WITH SKILLS */
+	text-align: left;      
   }
   
   .about-text p {
@@ -140,7 +140,7 @@
 	list-style: none;
 	display: flex;
   
-	gap: 20px;            /* SPACE BETWEEN BUBBLES */
+	gap: 20px;            
   
 	flex-wrap: wrap;
 	padding-left: 0;
@@ -184,7 +184,7 @@
   /* CARDS */
   
   .cards {
-	display: flex;            /* FLEXBOX */
+	display: flex;            
 	gap: 30px;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -193,7 +193,7 @@
   .card {
 	background: white;
   
-	width: 280px;             /* PX */
+	width: 280px;             
 	padding: 20px;
   
 	border-radius: 10px;
@@ -201,7 +201,7 @@
   
 	text-align: left;
   
-	transition: 0.3s;         /* TRANSITION */
+	transition: 0.3s;         
   }
   
   .card img {
@@ -251,7 +251,7 @@
   /* GRID GALLERY */
   
   .gallery {
-	display: grid;                 /* GRID */
+	display: grid;                 
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
   }
@@ -334,7 +334,104 @@
   .skills li:hover {
 	transform: scale(1.1);
   }
+  /* CONTACT PAGE */
+
+.contact {
+	padding: 60px 40px;
+	text-align: center;
+	max-width: 700px;
+	margin: auto;
+  }
   
+  .contact h1 {
+	margin-bottom: 10px;
+  }
   
+  .contact p {
+	margin-bottom: 30px;
+	color: #555;
+  }
   
+  /* FORM */
   
+  .contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+	padding: 12px;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+	border-color: var(--primary-color);
+	outline: none;
+  }
+  
+  /* INFO */
+  
+  .contact-info {
+	margin-top: 30px;
+	font-size: 0.95rem;
+  }
+  /* ABOUT CARDS */
+
+.about-cards {
+	display: flex;
+	gap: 30px;
+  
+	margin-top: 40px;
+  
+	flex-wrap: wrap;
+  }
+  
+  .about-card {
+	flex: 1;
+  
+	min-width: 250px;
+  
+	background: #f9f9f9;
+  
+	padding: 25px;
+  
+	border-radius: 12px;
+  
+	box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  
+	text-align: center;
+  
+	transition: 0.3s;
+  }
+  
+  .about-card:hover {
+	transform: translateY(-6px);
+  }
+  
+  /* SOFT SKILLS LIST */
+  
+  .soft-skills {
+	list-style: none;
+	padding: 0;
+  
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 8px;
+  
+	margin-top: 15px;
+  }
+  
+  .soft-skills li {
+	background: var(--primary-color);
+	color: white;
+  
+	padding: 6px 10px;
+	border-radius: 15px;
+  
+	font-size: 0.85rem;
+  }
